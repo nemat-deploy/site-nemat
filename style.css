@@ -10,3 +10,6 @@ img {
     filter: brightness(120%);
     filter: contrast(110%);
 }
+h1, h2 {
+    text-align: center;
+}
