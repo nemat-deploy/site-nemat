@@ -13,7 +13,8 @@
     "@tailwindcss/cli": "^4.1.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-router-dom": "^7.4.1"
+    "react-router-dom": "^7.4.1",
+    "tailwindcss": "^4.1.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
@@ -27,12 +28,9 @@
     "eslint-plugin-react-refresh": "^0.4.19",
     "globals": "^15.15.0",
     "postcss": "^8.5.3",
-    "tailwindcss": "link:../../../../.local/share/pnpm/global/5/node_modules/tailwindcss",
     "vite": "^6.2.0"
   },
   "pnpm": {
-    "overrides": {
-      "tailwindcss": "link:../../../../.local/share/pnpm/global/5/node_modules/tailwindcss"
-    }
+    "overrides": {}
   }
 }

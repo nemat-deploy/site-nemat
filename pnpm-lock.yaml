@@ -4,9 +4,6 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-overrides:
-  tailwindcss: link:../../../../.local/share/pnpm/global/5/node_modules/tailwindcss
-
 importers:
 
   .:
@@ -23,6 +20,9 @@ importers:
       react-router-dom:
         specifier: ^7.4.1
         version: 7.4.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      tailwindcss:
+        specifier: ^4.1.2
+        version: 4.1.2
     devDependencies:
       '@eslint/js':
         specifier: ^9.21.0
@@ -57,9 +57,6 @@ importers:
       postcss:
         specifier: ^8.5.3
         version: 8.5.3
-      tailwindcss:
-        specifier: link:../../../../.local/share/pnpm/global/5/node_modules/tailwindcss
-        version: link:../../../../.local/share/pnpm/global/5/node_modules/tailwindcss
       vite:
         specifier: ^6.2.0
         version: 6.2.5(jiti@2.4.2)(lightningcss@1.29.2)
@@ -1125,6 +1122,9 @@ packages:
     resolution: {integrity: sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==}
     engines: {node: '>=8'}
 
+  tailwindcss@4.1.2:
+    resolution: {integrity: sha512-VCsK+fitIbQF7JlxXaibFhxrPq4E2hDcG8apzHUdWFMCQWD8uLdlHg4iSkZ53cgLCCcZ+FZK7vG8VjvLcnBgKw==}
+
   tapable@2.2.1:
     resolution: {integrity: sha512-GNzQvQTOIP6RyTfE2Qxb8ZVlNmw0n88vp1szwWRimP02mnTsx3Wtn5qRdqY9w2XduFNUgvOwhNnQsjwCp+kqaQ==}
     engines: {node: '>=6'}
@@ -1522,14 +1522,14 @@ snapshots:
       enhanced-resolve: 5.18.1
       mri: 1.2.0
       picocolors: 1.1.1
-      tailwindcss: link:../../../../.local/share/pnpm/global/5/node_modules/tailwindcss
+      tailwindcss: 4.1.2
 
   '@tailwindcss/node@4.1.2':
     dependencies:
       enhanced-resolve: 5.18.1
       jiti: 2.4.2
       lightningcss: 1.29.2
-      tailwindcss: link:../../../../.local/share/pnpm/global/5/node_modules/tailwindcss
+      tailwindcss: 4.1.2
 
   '@tailwindcss/oxide-android-arm64@4.1.2':
     optional: true
@@ -1584,7 +1584,7 @@ snapshots:
       '@tailwindcss/node': 4.1.2
       '@tailwindcss/oxide': 4.1.2
       postcss: 8.5.3
-      tailwindcss: link:../../../../.local/share/pnpm/global/5/node_modules/tailwindcss
+      tailwindcss: 4.1.2
 
   '@types/cookie@0.6.0': {}
 
@@ -2073,6 +2073,8 @@ snapshots:
   supports-color@7.2.0:
     dependencies:
       has-flag: 4.0.0
+
+  tailwindcss@4.1.2: {}
 
   tapable@2.2.1: {}
 
