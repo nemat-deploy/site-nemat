@@ -4,7 +4,7 @@ export default function CursoLatex() {
   return (
     <div className="curso-latex">
       <div 
-        className="head-foto w-full h-[200px] bg-cover bg-center flex items-center justify-center text-white text-2xl font-bold"
+        className="head-foto w-full bg-center flex items-center"
         style={{ backgroundImage: "url('./curso-latex-2024-2.jpg')" }}
       >
         <p className="textPicture">Curso de LaTeX na UFDPar!</p>

@@ -6,7 +6,7 @@
 
 .head-foto {
     width: 100%;
-    height: 200px;
+    height: 340px;
     background-size: cover;
     background-position: center;
     background-image: url('/curso-latex-2024-2.jpg');
@@ -19,10 +19,14 @@
     font-size: 25px;
     font-weight: bold;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    height: 60px;
+    background-color: rgba(7, 27, 95, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 h1 {
-    margin-top: 0;
+    margin-top: 300px;
     margin-bottom: 20px;
     font-size: 30px;
 }
@@ -48,6 +52,6 @@ h1 {
 
 @media (max-width: 768px) {
     h1 {
-        margin-top: 130px;
+        margin-top: 260px;
     }
 }
