@@ -1,5 +1,5 @@
 import './styles.css';
-
+          
 export default function CursoLatex() {
   return (
     <div className="curso-latex">
@@ -7,7 +7,9 @@ export default function CursoLatex() {
         className="head-foto w-full bg-center flex items-center"
         style={{ backgroundImage: "url('./curso-latex-2024-2.jpg')" }}
       >
-        <p className="textPicture">Curso de LaTeX na UFDPar!</p>
+        <p className="textPicture">
+          Curso de <i class="devicon-latex-original"></i> básico na UFDPar!
+          </p>
       </div>
       
       <h1>Universidade Federal do Delta do Parnaíba</h1>
