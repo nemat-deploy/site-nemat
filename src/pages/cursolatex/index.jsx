@@ -24,8 +24,13 @@ export default function CursoLatex() {
           <h3>Turma 2 - 2024.2</h3>
           <h4>Início dia 01/03/2025</h4>
         </div>
-        <p><a href="/">home</a></p>
       </div>
+      <h2>Organizadores</h2>
+      <p className='organizers'>
+        Prof. Dr. Paulo Sérgio <br />
+        Discentes: Andrielmo, Ricardo e Samuel
+      </p>
+      <p><a href="/" className='home'>home</a></p>
     </div>
   );
 }
